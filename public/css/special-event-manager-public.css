@@ -1,0 +1,70 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ h1.entry-title.event-title {
+  margin-bottom: 10px;
+}
+
+.past-event-entry-meta img, .event-article img {
+  max-width: 100%;
+  height: auto;
+}
+
+#ninja_forms_form_3_all_fields_wrap {
+  padding-top: 100px;
+}
+
+#ninja_forms_field_12_label {
+  padding-top: 50px;
+}
+
+.events-module li {
+  text-align: center;
+  width: 164px;
+  height: 203px;
+  margin: 0 auto 35px auto;
+  font-size: 1.3em;
+  color: #FFFFFF;
+  overflow: hidden;
+  border: 4px solid #FFFFFF;
+}
+.events-module li .event-bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+.events-module li .event-bg:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+.events-module li a {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+}
+.events-module li .event-dayofweek, .events-module li .event-month, .events-module li .event-time, .events-module li .event-title {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  line-height: 1.16em;
+  font-family: "Raleway", sans-serif;
+}
+.events-module li .event-dayofweek {
+  padding-top: 10px;
+  font-size: .85em;
+}
+.events-module li .event-month {
+  font-size: .85em;
+}
+.events-module li .event-time {
+  font-size: 1.3em;
+  font-family: 'Playball', serif;
+}
+.events-module li .event-title {
+  font-size: .85em;
+}
+
+.after-events-p {
+  clear: both;
+}
